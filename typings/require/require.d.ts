@@ -1,0 +1,1 @@
+declare function require(fileName : string) : any;

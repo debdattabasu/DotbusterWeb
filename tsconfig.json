@@ -1,0 +1,18 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es3",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+       "node_modules"
+    ]
+}

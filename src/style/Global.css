@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	flex-grow: 0;
+	flex-shrink: 0;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#nav-bar {
+  position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 64px;
+  background-color: rgb(10, 10, 10);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+
+#nav-bar h1 {
+  color: rgb(185, 185, 185);
+  margin-left: 18px;
+  font-family: Raleway;
+  cursor: pointer;
+  transition: color 250ms ease-in-out;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#nav-bar h1:hover {
+  color: white;
+
+}
+
+#footer {
+  position: fixed;
+	left: 0;
+	right: 0;
+	height: 64px;
+	bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+}
+
+#footer a {
+  color: rgb(185, 185, 185);
+  font-family: Raleway;
+  transition: color 250ms ease-in-out;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#content {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 64px;
+	bottom: 64px;
+  background-color: #212121;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  position: relative;
+  cursor: default;
+  width: 1280px;
+  height: 720px;
+  border: 6px solid #454545;
+  background-color: rgb(10, 10, 10);
+}
+
+#hud {
+  position: absolute; 
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 64px;
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+
+#hud h2 {
+  color: rgb(185, 185, 185);
+  margin-left: 32px;
+  font-family: Raleway;
+  transition: color 250ms ease-in-out;
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+#energy-container {
+  position: relative;
+  width: 720px; 
+  height: 36px;
+  margin-left: 20px;
+  background-color: rgb(64, 64, 64);
+  
+}
+
+#energy-indicator {
+  position: absolute;
+  left: 0;  
+  top: 0;
+  bottom: 0;
+  background-color: rgb(185, 185, 185);
+  width: 10%
+  
+}
+
+#score {
+  color: rgb(185, 185, 185);
+  margin-right: 24px;
+  font-family: Arial;
+  transition: color 250ms ease-in-out;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+#instructions {
+  position: absolute;
+  left: 0;
+  top: 232px; 
+  width: 375px; 
+  height: 256px; 
+  background-color: rgba(0, 0, 0, 0.75); 
+}
+
+#instructions h1 {
+  color: rgb(185, 185, 185);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+
+#instructions h2 {
+  color: rgb(185, 185, 185);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+#instructions li {
+  color: rgb(185, 185, 185);
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  list-style-type: none;
+  
+}
+
+
+#game-start {
+  cursor: pointer;
+  color: rgb(185, 185, 185);
+  margin-left: 20px;
+  margin-top: 24px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: bold;
+  transition: color 250ms ease-in-out;
+}
+
+#game-start:hover {
+  color: white;
+}
+
+
+#mute-button {
+  color: rgb(185, 185, 185);
+  margin-right: 18px;
+  font-family: Material Icons;
+  cursor: pointer;
+  transition: color 250ms ease-in-out;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#mute-button:hover {
+  color: white;
+}

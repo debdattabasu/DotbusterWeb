@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=900">
+    <title>Dotbuster</title>
+    <base href="/">
+    <script src="js/bundle.js"></script>
+  </head>
+  <body>
+    <div id="nav-bar">
+      <h1> DOTBUSTER </h1>
+      <div style="flex-grow: 1"> </div>
+      <div id="mute-button">&#xE050;</div>
+      
+    </div>
+    <div id="content">
+      <div id="container">
+        <canvas width="1280" height="720" id="canvas"></canvas>
+        <div id="hud">
+          <h2> ENERGY </h2> 
+          <div id="energy-container">
+            <div id="energy-indicator"></div>
+          </div>
+          <div style="flex-grow: 1"> </div>
+          <div id="score"> 0 </div>
+        </div>
+      
+        <div id="instructions">
+          <h1> DOTBUSTER </h1>
+          <h2 id="instructions-header"> Instructions </h2>
+          <ul>
+            <li>1. Connect green dots to form a closed circle to get points. </li> 
+            <li>2. Avoid encircling the red viruses. They reduce energy. </li>
+            <li>3. Encircle the purple hearts to get energy. </li>         
+          </ul>
+        
+          <div id="game-start"> Start </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <a href="http://www.google.com" target="_blank"> Debdatta Basu </a>
+    </div>
+  </body>
+</html>
