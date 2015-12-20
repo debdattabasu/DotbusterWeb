@@ -52,13 +52,24 @@
   background-color: #212121;
 }
 
+#footer .separator {
+  color: rgb(95, 95, 95);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 #footer a {
   color: rgb(185, 185, 185);
+  cursor: pointer;
   font-family: Raleway;
   transition: color 250ms ease-in-out;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
+  margin-left: 22px;
+  margin-right: 22px; 
 }
 
 #footer a:hover {
